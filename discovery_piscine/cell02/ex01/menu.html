@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SNCF Sandwich</title>
+	<link rel="stylesheet" href="menu.css">
+</head>
+<body>
+	<div class="card">
+		<h1>SNCF Sandwich</h1>
+		<p class="subtitle">Ham &amp; Cheese — build your order before the next station</p>
+
+		<div class="field">
+			<label for="bread">Bread</label>
+			<select id="bread" name="bread">
+				<option value="baguette">Baguette</option>
+				<option value="pain-de-mie">Pain de mie</option>
+				<option value="complet">Whole wheat bread</option>
+			</select>
+		</div>
+
+		<div class="field">
+			<label for="cheese">Cheese</label>
+			<select id="cheese" name="cheese">
+				<option value="emmental">Emmental</option>
+				<option value="comte">Comté</option>
+				<option value="none">No cheese</option>
+			</select>
+		</div>
+
+		<div class="field">
+			<label for="extra">Extra</label>
+			<select id="extra" name="extra">
+				<option value="butter">Butter</option>
+				<option value="cornichon">Pickled</option>
+				<option value="none">Nothing else</option>
+			</select>
+		</div>
+
+		<div class="field">
+			<label for="drink">Drink</label>
+			<select id="drink" name="drink">
+				<option value="water">Water</option>
+				<option value="coffee">Coffee</option>
+				<option value="none">No drink</option>
+			</select>
+		</div>
+
+		<button type="button">Order sandwich</button>
+	</div>
+</body>
+</html>
